@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:coviddb;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;CASE_INSENSITIVE_IDENTIFIERS=TRUE
+    username: sa
+    password: 
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+    hibernate.ddl-auto: update
