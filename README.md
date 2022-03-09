@@ -27,4 +27,7 @@ DWM_Exam(Covid19 Data)
 
 ### The first end point is for initialization of data from CSV, the second one is for geting top Confirmed cases.
 
+#### Deployed in Heroku
+- https://covid19dwmorgan.herokuapp.com/
+
 
